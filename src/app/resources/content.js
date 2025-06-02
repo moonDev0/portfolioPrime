@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Munir',
+    lastName:  'Sadiq',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Web Developer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Africa/Lagos',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    subline: <>I'm Munir, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
 }
 
 const about = {
@@ -69,7 +69,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Munir is a Nigerian-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. My work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
     },
     work: {
         display: true, // set to false to hide this section
